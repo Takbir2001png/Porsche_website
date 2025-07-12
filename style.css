@@ -1,0 +1,155 @@
+/* style.css - Dark Theme for Porsche Website */
+
+#welcome {
+  text-align: center;
+  margin: 10px auto;
+  padding: 0px;
+  max-width: 600px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 2px solid #e50914;
+}
+
+header h1 {
+  margin: 0;
+  color: #e50914;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e50914;
+}
+
+#template-link {
+  background-color: #222;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+#template-link a {
+  color: #ccc;
+}
+
+#custom-function {
+  background-color: #1e1e1e;
+  padding: 2em;
+  margin: 2em auto;
+  text-align: center;
+  border: 2px dashed #e50914;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+#custom-function input {
+  padding: 0.5em;
+  font-size: 16px;
+  margin-top: 1em;
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+}
+
+#custom-function button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#custom-function button:hover {
+  background-color: #b00710;
+}
+
+.car-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.car-gallery img {
+  border: 3px solid #e50914;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.car-gallery img:hover {
+  transform: scale(1.05);
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: #aaa;
+  text-align: center;
+  padding: 1em;
+  margin-top: 3em;
+  font-size: 0.9em;
+}
+
+.model-specs {
+  margin: 2em auto;
+  max-width: 700px;
+  background-color: #1e1e1e;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #e50914a0;
+  text-align: left;
+}
+
+.model-specs h3 {
+  color: #e50914;
+  margin-top: 0;
+}
+
+.model-specs ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.model-specs ul li::before {
+  content: "• ";
+  color: #e50914;
+}
+
+.model-specs ul li {
+  margin-bottom: 0.6em;
+}
+
+.model-specs h4 {
+  color: #ff6666;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
